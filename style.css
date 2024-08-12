@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 240px;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}
+
+header li {
+    color: lightgray;
+    padding-left: 16px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 240px 120px;
+}
+
+.hero .hero-left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+.hero .hero-left h1 {
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero .hero-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px 0px 24px 0px;
+}
+
+.hero button {
+    background-color: #3B82F6;
+    width: 104px;
+    border-radius: 6px;
+    border: 0px;
+    color: white;
+    padding: 16px 8px;
+    font-size: 18px;
+}
+
+.hero img {
+    width: 640px;
+}
+
+.section-white {
+    margin: 64px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-white h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.box-row {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.box-unit {
+    width: 184px;
+    color: gray;
+    text-align: center;
+}
+
+.section-white .square {
+    border: 4px #3B82F6 solid;
+    border-radius: 16px;
+    height: 184px;
+}
+
+.section-gray {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 440px;
+}
+
+.section-gray .quote {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+.section-gray .quote-attribution {
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.section-cta {
+    background-color: white;
+}
+
+.blue-cta {
+    background-color: #3B82F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 72px 160px;
+    margin: 120px 264px;
+    border-radius: 16px;
+}
+
+.blue-cta {
+    font-size: 20px;
+}
+
+.blue-cta h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.blue-cta button {
+    background-color: #3B82F6;
+    color: white;
+    border: 2px white solid;
+    border-radius: 6px;
+    padding: 8px 40px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 64px 240px;
+    font-size: 20px;
+}
